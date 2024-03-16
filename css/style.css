@@ -281,6 +281,7 @@ header ul li a.active {
 /* footer */
 .footer {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
