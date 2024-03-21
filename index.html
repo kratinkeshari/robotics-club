@@ -8,6 +8,7 @@
   <title>Robotics Club MMMUT</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/f17533d144.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
   <meta name="description" content="Robotcs Club MMMUT Official Website" />
@@ -34,11 +35,11 @@
     <a href="#" class="logo"><img src="./images/logo.jpg" alt="img" /></a>
     <nav class="navbar">
       <li><a href="#">Home</a></li>
-      <li><a href="#">About Us </a></li>
-      <li><a href="#">Workshop</a></li>
-      <li><a href="#">Robomania</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="#about">About Us </a></li>
+      <li><a href="#workshops">Workshop</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="team.html">Team</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </nav>
   </header>
   <section>
@@ -87,7 +88,7 @@
       </div>
 
       <!-- Resource Section -->
-      <div class="page-scroll">
+      <div class="page-scroll" id="workshops">
         <h1 class="workshop_heading" data-aos="fade" data-aos-duration="800">
           <span class="low-highlight-skin"> WorkShop</span>
         </h1>
@@ -164,7 +165,7 @@
         </section>
       </div>
       <!-- Gallery Section -->
-      <div class="page-scroll">
+      <div class="page-scroll" id="gallery">
         <h1 class="workshop_heading" data-aos="fade" data-aos-duration="800">
           <span class="low-highlight-skin"> Gallery</span>
         </h1>
@@ -231,7 +232,7 @@
     </div>
   </section>
   <!-- contact us -->
-  <div class="contact">
+  <div class="contact" id="contact">
     <h2 id="about" class="mob-h2 page-scroll about" style="
     font-size: 56px;
     font-weight: 700;
@@ -254,15 +255,38 @@
           <textarea name="main_msm" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
           <input type="submit" value="Send Message" class="btn1" />
         </form>
-        <div class="contact_info">
-        </div>
       </div>
     </div>
   </div>
-
-  <footer>
-
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#workshops">Workshop</a></li>
+      <li class="menu__item"><a class="menu__link" href="#gallery">Gallery</a></li>
+      <li class="menu__item"><a class="menu__link" href="team.html">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+    </ul>
+    <p>&copy;Robotics Club MMMUT | All Rights Reserved</p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
   <!-- Page Scroll Up On Click -->
   <script src=".//js/script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
