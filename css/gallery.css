@@ -39,8 +39,10 @@
     user-select: none;
   }
   
+  
   .grid-item .image:hover img {
     transform: scale(1.4);
+    cursor: pointer;
   }
   
   .grid-item-title {
