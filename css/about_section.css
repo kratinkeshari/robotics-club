@@ -27,7 +27,7 @@
   min-height: 600px;
   height: auto;
   background-color: #000000;
-  background-image: url(https://wallpapercave.com/wp/wp3842313.jpg);
+  background-image: url(./workshop/Drone.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -38,12 +38,12 @@
 
 .flip-card:nth-of-type(2) .flip-card-front,
 .flip-card:nth-of-type(2) .flip-card-back {
-  background-image: url(https://wallpapercave.com/wp/wp5049551.jpg);
+  background-image: url(./workshop/WebD.jpg);
 }
 
 .flip-card:nth-of-type(3) .flip-card-front,
 .flip-card:nth-of-type(3) .flip-card-back {
-  background-image: url(https://wallpapercave.com/wp/wp7907920.jpg);
+  background-image: url(./workshop/circuitry.jpg);
 }
 
 .flip-card-front {
